@@ -632,10 +632,14 @@
         text-decoration: none;
         max-width: 600px;
         display: block;
+        border-top: 2px solid var(--black); 
+        border-bottom: 2px solid var(--black); 
+        margin-top: 40px;
     }
 
     .ad h3{
         margin-bottom: 0;
+        margin-top: 20px;
     }
 
     .ad img{
@@ -644,4 +648,9 @@
 
     .ad p{
         color: #0f1894;
+        margin-bottom: 20px !important;
+    }
+
+    .ads   .ad{
+        border-bottom: none;
     }
