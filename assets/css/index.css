@@ -604,6 +604,10 @@
         background: black;
         padding: 20px 0 10px;
         text-align: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
     }
 
     .mobile, .desktop, img{
